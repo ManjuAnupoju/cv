@@ -8,9 +8,6 @@
     right: 300px;
     top:100px;
 }
-.dp{
-    position:relative;
-    left:310px;
 }
 h1{
     font-size:3.625rem;
@@ -47,6 +44,10 @@ p{
 }
 .styling{
     color:#004d40;
+    transition: 0.02s all ease-in-out;
+}
+.styling:hover{
+    transform: scale(1.02);
 }
 .thick-green-border {
     border-color: lightpink !important;
@@ -123,7 +124,7 @@ footer{
     padding-top:var(--main-padding);
     border-radius: 25px;
 }
-@media only screen and (max-width:550px) {
+@media only screen and (max-width:780px) {
     .responsive{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2.9fr 1fr 1fr 1fr;
@@ -182,4 +183,12 @@ hr{
     color:white;
     font-size: 1em;
     padding: 20px 0px;
+}
+.instagram{
+    width:100px;
+    height:75px;
+}
+facebook{
+    width:100px;
+    height:75px;
 }
