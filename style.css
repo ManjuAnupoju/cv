@@ -112,12 +112,11 @@ footer{
 @media only screen and (max-width:850px) {
     .responsive{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2.9fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 2.9fr 1fr 1fr 1fr;
         grid-template-areas:
         "about about"
         "Languagesknown Languagesknown"
-        "Skills Skills"
-        "AwardsandAchievements AwardsandAchievements"
+        "Skills AwardsandAchievements"
         "footer footer";
     }
 }
