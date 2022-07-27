@@ -82,12 +82,12 @@ body {
     display:grid;
     height:100vh;
     width:100;
-    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr;
     grid-template-rows:1.5fr 1.5fr 0.8fr;
     grid-template-areas:
-        "about about Languagesknown Languagesknown"
-        "Skills Skills AwardsandAchievements AwardsandAchievements"
-        "footer footer footer footer ";
+        "about Languagesknown"
+        "Skills AwardsandAchievements"
+        "footer footer ";
 }
 #about {
     grid-area: about;
