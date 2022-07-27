@@ -44,10 +44,10 @@ p{
 }
 .styling{
     color:#004d40;
-    transition: 0.2s all ease-in-out;
+    transition: 0.02s all ease-in-out;
 }
 .styling:hover{
-    transform: scale(1.20);
+    transform: scale(1.02);
 }
 .thick-green-border {
     border-color: lightpink !important;
@@ -135,7 +135,7 @@ hr{
     text-align: left;
     background-color: deeppink;
     padding: 50px 0 20px;
-    height:50%;
+    height:70%;
 }
 .btn {
     background: #11cdd4;
