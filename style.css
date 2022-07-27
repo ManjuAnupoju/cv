@@ -44,10 +44,10 @@ p{
 }
 .styling{
     color:#004d40;
-    transition: 0.04s all ease-in-out;
+    transition: 0.2s all ease-in-out;
 }
 .styling:hover{
-    transform: scale(1.04);
+    transform: scale(1.20);
 }
 .thick-green-border {
     border-color: lightpink !important;
