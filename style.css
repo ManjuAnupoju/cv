@@ -192,3 +192,6 @@ hr{
     width:100px;
     height:75px;
 }
+div{
+    display:block;
+}
