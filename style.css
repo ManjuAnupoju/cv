@@ -38,7 +38,7 @@ p{
     margin:10px;
     border: solid;
     height:41%;
-    width:95%;
+    width:90%;
     position:relative;
     padding:30px;
 }
@@ -88,7 +88,6 @@ body {
         "about about Languagesknown Languagesknown"
         "Skills Skills AwardsandAchievements AwardsandAchievements"
         "footer footer footer footer ";
-        grid-gap: 0.5rem;
 }
 #about {
     grid-area: about;
