@@ -44,10 +44,10 @@ p{
 }
 .styling{
     color:#004d40;
-    transition: 0.02s all ease-in-out;
+    transition: 0.04s all ease-in-out;
 }
 .styling:hover{
-    transform: scale(1.02);
+    transform: scale(1.04);
 }
 .thick-green-border {
     border-color: lightpink !important;
@@ -82,12 +82,12 @@ body {
     display:grid;
     height:100vh;
     width:100;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr;
     grid-template-rows:1.5fr 1.5fr 0.8fr;
     grid-template-areas:
-        "about Languagesknown"
-        "Skills AwardsandAchievements"
-        "footer footer ";
+        "about about Languagesknown Languagesknown"
+        "Skills Skills AwardsandAchievements AwardsandAchievements"
+        "footer footer footer footer ";
 }
 #about {
     grid-area: about;
@@ -132,7 +132,6 @@ footer{
         "Languagesknown Languagesknown"
         "Skills AwardsandAchievements"
         "footer footer";
-        grid-gap:0.2rem;
     }
 }
 hr{
@@ -191,7 +190,4 @@ hr{
 .facebook{
     width:100px;
     height:75px;
-}
-div{
-    display:block;
 }
