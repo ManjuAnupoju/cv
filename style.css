@@ -73,10 +73,6 @@ body {
     height:200vh;
     margin: 0;
 }
-.root{
-    --main-radius:5px;
-    --main-padding:5px;
-}
 .responsive
 {
     display:grid;
@@ -91,36 +87,26 @@ body {
 }
 #about {
     grid-area: about;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
     border: solid blue;
     border-radius: 25px;
 }
 #Languagesknown {
     grid-area: Languagesknown;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
     border: solid green;
     border-radius: 25px;
 }
 #Skills {
     grid-area: Skills;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
     border: solid brown;
     border-radius: 25px;
 }
 #AwardsandAchievements {
     grid-area: AwardsandAchievements;
     border: solid darkmagenta;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
     border-radius: 25px;
 }
 footer{
     grid-area: footer;
-    border-radius:var(--main-radius);
-    padding-top:var(--main-padding);
     border-radius: 25px;
 }
 @media only screen and (max-width:780px) {
@@ -145,6 +131,7 @@ hr{
 .container {
     font-size:20px;
     display: grid;
+    grid-area:footer;
     text-align: left;
     background-color: deeppink;
     padding: 50px 0 20px;
