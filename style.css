@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .contact{
     position: absolute;
     right:5px;
@@ -178,3 +181,13 @@ hr{
     width:100px;
     height:75px;
 }
+.column{
+    float:left;
+    padding:5px;
+}
+.row::after{
+    content:"";
+    display:table;
+    clear:one;
+}
+    
