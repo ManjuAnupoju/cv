@@ -171,14 +171,10 @@ hr{
     padding: 20px 0px;
 }
 .instagram{
-    position:absolute;
     width:100px;
     height:75px;
-    left:700px;
 }
 .facebook{
-    position:absolute;
     width:100px;
     height:75px;
-    left: 500px;
 }
